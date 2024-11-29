@@ -1,10 +1,11 @@
 import React from 'react';
+import { replacePlaceholders } from '../utils/replacePlaceholders';
 
-const Footer = () => {
+const Footer = ({data}) => {
   return (
-    <footer>
-      <div>
-        <h4>all rights reserved</h4>
+    <footer className='footer'>
+      <div className='container mx-auto text-center'>
+        {replacePlaceholders(data.footer?.text)}
       </div>
     </footer>
   );

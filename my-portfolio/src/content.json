@@ -1,0 +1,38 @@
+{
+    "home": {
+        "greetings": "Hey I'm [Firstname]",
+        "intro": {
+            "job":"[My Occupation]",
+            "headline": "[Headline goes here]",
+            "moreheadline": "[Headline Continues here]"
+        }
+    },
+    "about": {
+        "title": "About Me",
+        "bio": "[Your detailed bio goes here]"
+    },
+    "projects": {
+        "title": "Projects",
+        "items": [
+            {
+                "name": "Project One",
+                "description": "A responsive web application built with React and Tailwind CSS.",
+                "github": "https://github.com/yourusername/project-one",
+                "demo": "https://project-one-demo.com"
+            },
+            {
+                "name": "Project Two",
+                "description": "An interactive platform with dynamic animations powered by Framer Motion.",
+                "github": "https://github.com/yourusername/project-two",
+                "demo": "https://project-two-demo.com"
+            }
+        ]
+    },
+    "contact": {
+        "title": "Contact",
+        "information": "Feel free to reach out via email at john.doe@example.com."
+    },
+    "footer": {
+        "text": "© [Current Year] [Firstname] [Lastname]. All rights reserved."
+    }
+}
