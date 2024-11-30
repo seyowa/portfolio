@@ -1,11 +1,13 @@
 {
     "home": {
         "greetings": "Hey I'm [Firstname]",
-        "intro": {
-            "job":"[My Occupation]",
-            "headline": "[Headline goes here]",
-            "moreheadline": "[Headline Continues here]"
-        }
+        "items": [
+            {
+                "occupation":"Web Developer",
+                "headline": "Eager to bring ideas to life",
+                "headlineContinues": "Let's create something amazing!"
+            }
+        ]
     },
     "about": {
         "title": "About Me",
