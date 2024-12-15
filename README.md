@@ -2,7 +2,7 @@
 
 ## Description
 
-A modern and responsive web developer portfolio website built with **React**, **Tailwind CSS**, and **Framer Motion**. Showcasing my skills, projects, and contact information.
+A modern and responsive developer portfolio website built with **React**, **Tailwind CSS**, and **Framer Motion**. Showcasing my skills, projects, and contact information.
 
 ## Features
 
