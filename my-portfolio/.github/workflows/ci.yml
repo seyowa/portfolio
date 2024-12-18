@@ -2,7 +2,7 @@ name: CI/CD Pipeline
 
 on:
   push:
-    branches: [ setup/ci-cd, main ]
+    branches: [ main ]
   pull_request:
     branches: [ main ]
 
@@ -15,6 +15,13 @@ jobs:
         with:
           node-version: '18'
           cache: 'npm'
-      - run: npm ci
-      - run: npm test
-      - run: npm run build
+          cache-dependency-path: '**/package-lock.json'
+      - name: Install dependencies
+        run: npm ci
+        continue-on-error: false
+      - name: Run tests
+        run: npm test
+        continue-on-error: false
+      - name: Build application
+        run: npm run build
+        continue-on-error: false
