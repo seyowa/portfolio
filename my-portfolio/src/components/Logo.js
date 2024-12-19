@@ -1,8 +1,8 @@
 import React from 'react';
 
 const Logo = () => (
-  <div >
-    <h3></h3>
+  <div>
+    <h3>seyowa</h3>
   </div>
 );
 
