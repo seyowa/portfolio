@@ -8,6 +8,7 @@ const Header = () => {
     <nav className="fixed z-50 w-full bg-white shadow-md">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
+          
           {/* Logo Section */}
           <div className="flex-shrink-0">
             <Logo />
