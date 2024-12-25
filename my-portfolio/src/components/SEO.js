@@ -11,6 +11,6 @@ const SEO = () => (
     <meta name="keywords" content={content.keywords || "web developer, software engineer"} />
     <meta name="author" content={content.user?.name} />
   </Helmet>
-);g
+);
 
 export default SEO;
