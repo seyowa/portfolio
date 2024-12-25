@@ -1,1 +1,12 @@
-{}
+{
+    "user": {
+        "name": "Mowee Test",
+        "description": "A modern and responsive web developer portfolio showcasing skills, projects, and contact information."
+    },
+    "keywords": ["web developer", 
+                "portfolio", 
+                "projects", 
+                "contact", 
+                "skills"
+            ] 
+}

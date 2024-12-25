@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Logo from './Logo';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,30 +17,30 @@ const Header = () => {
           {/* Desktop Menu */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
-              <a
-                href="#home"
+              <Link
+                to="/"
                 className="rounded-md px-3 py-2 text-sm font-medium text-gray-700 transition-colors hover:text-blue-600"
               >
                 Home
-              </a>
-              <a
-                href="#about"
+              </Link>
+              <Link
+                to="/about"
                 className="rounded-md px-3 py-2 text-sm font-medium text-gray-700 transition-colors hover:text-blue-600"
               >
                 About
-              </a>
-              <a
-                href="#projects"
+              </Link>
+              <Link
+                to="/projects"
                 className="rounded-md px-3 py-2 text-sm font-medium text-gray-700 transition-colors hover:text-blue-600"
               >
                 Projects
-              </a>
-              <a
-                href="#contact"
+              </Link>
+              <Link
+                to="/contact"
                 className="rounded-md px-3 py-2 text-sm font-medium text-gray-700 transition-colors hover:text-blue-600"
               >
                 Contact
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -75,30 +76,30 @@ const Header = () => {
       {isOpen && (
         <div className="md:hidden">
           <div className="space-y-1 px-2 pb-3 pt-2 sm:px-3">
-            <a
-              href="#home"
+            <Link
+              to="/"
               className="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-600"
             >
               Home
-            </a>
-            <a
-              href="#about"
+            </Link>
+            <Link
+              to="/about"
               className="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-600"
             >
               About
-            </a>
-            <a
-              href="#projects"
+            </Link>
+            <Link
+              to="/projects"
               className="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-600"
             >
               Projects
-            </a>
-            <a
-              href="#contact"
+            </Link>
+            <Link
+              to="/contact"
               className="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-600"
             >
               Contact
-            </a>
+            </Link>
           </div>
         </div>
       )}
