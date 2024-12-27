@@ -23,7 +23,7 @@ A modern and responsive web developer portfolio showcasing my skills, projects, 
 
 ## Live Demo
 
-Check out the live demo: [My Portfolio](https://my-portfolio-sigma-ten-48.vercel.app/)
+Check out the live demo: [Portfolio](https://portfolio-pi-weld-64.vercel.app/)
 
 ## Installation
 
