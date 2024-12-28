@@ -11,10 +11,10 @@ import Footer from './components/Footer';
 import content from './content.json';
 
 const App = () => {
-  const [data, setData]= useState({});
+  const [data, setData] = useState({});
   useEffect(() => {
     setData(content);
-  }, [])
+  }, []);
   return (
     <HelmetProvider>
       <Seo />
