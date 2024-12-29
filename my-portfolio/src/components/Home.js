@@ -5,6 +5,15 @@ import { motion } from 'framer-motion';
 
 
 const Home = () => {
+  let userName = "Seye";
+  let userKeywords = ["developer"];
+
+  try {
+    userName = content?.user?.name || "Seye";
+    userKeywords = content?.keywords || ["developer"];
+  } catch (error) {
+    console.error("Error loading contents:", error);
+  }
   return (
     <motion.section
       className="flex h-screen items-center justify-center bg-gradient-to-br from-gray-900 to-blue-900 text-white"
@@ -21,7 +30,7 @@ const Home = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1, delay: 0.5 }}
         >
-          Hi, I'm {content.user?.name || 'Seye'}
+          Hi, I'm {userName}
         </motion.h1>
         <motion.p
           className="mb-8 text-xl"
@@ -29,7 +38,7 @@ const Home = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1, delay: 1 }}
         >
-          A passionate <span className="capitalize">{content.keywords[1] || 'Developer'}</span><br />
+          A passionate <span className="capitalize">{userKeywords[1]}</span><br />
           <span className="mt-2 block italic">Eager to bring ideas to life<br />
           Let's create something amazing!</span>
         </motion.p>
