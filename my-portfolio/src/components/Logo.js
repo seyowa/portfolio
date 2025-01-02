@@ -12,7 +12,7 @@ const Logo = () => {
 
   return (
     <Link to="/" onClick={scrollToTop} className="flex items-center">
-      <span className="text-xl font-bold text-gray-800 transition-colors duration-300 hover:text-blue-600">
+      <span className="text-xl font-bold text-gray-900 transition-colors duration-300 hover:text-teal-400">
         SO
       </span>
     </Link>
