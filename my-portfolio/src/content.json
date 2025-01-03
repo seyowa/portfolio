@@ -1,6 +1,6 @@
 {
   "user": {
-    "name": "Mowee Test",
+    "name": "Seye Omowa",
     "description": "A modern and responsive web developer portfolio showcasing skills, projects, and contact information."
   },
   "keywords": ["web developer", "software developer", "portfolio", "projects", "contact", "skills"],
@@ -8,7 +8,7 @@
     {
       "id": 1,
       "title": "Portfolio Website",
-      "image": "https://via.placeholder.com/400x250",
+      "image": "https://placehold.co/400x250",
       "description": "A personal portfolio to showcase my projects and skills.",
       "techStack": [
         { "id": 1, "name": "React" },
@@ -21,7 +21,7 @@
     {
       "id": 2,
       "title": "E-commerce App",
-      "image": "https://via.placeholder.com/400x250",
+      "image": "https://placehold.co/400x250",
       "description": "A modern e-commerce application with user authentication.",
       "techStack": [
         { "id": 1, "name": "React" },
@@ -34,7 +34,7 @@
     {
       "id": 3,
       "title": "Social Media App",
-      "image": "https://via.placeholder.com/400x250",
+      "image": "https://placehold.co/400x250",
       "description": "A social media application for connecting with friends.",
       "techStack": [
         { "id": 1, "name": "Python" },

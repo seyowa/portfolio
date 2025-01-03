@@ -27,7 +27,8 @@ const Home = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1, delay: 0.5 }}
         >
-          Hi, I'm {userName}
+          Hi, I'm{' '}
+          <span className="whitespace-nowrap italic tracking-tight text-teal-400">{userName}</span>
         </motion.h1>
         <motion.p
           className="mb-8 text-xl"

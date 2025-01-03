@@ -16,10 +16,7 @@ const Card = ({
         <p className="mb-4 text-gray-700">{description}</p>
         <div className="mb-4 flex flex-wrap gap-2">
           {tags.map(tag => (
-            <span
-              key={tag.id}
-              className="rounded-full bg-teal-100 px-3 py-1 text-sm text-teal-700"
-            >
+            <span key={tag.id} className="rounded-full bg-teal-100 px-3 py-1 text-sm text-teal-700">
               {tag.name}
             </span>
           ))}
